@@ -29,7 +29,7 @@ def main():
 def testTorIp(password,port,proxy,urlTest):    
     tor = TorIp(password,port,proxy)
     print(tor.renew_ip())
-    print(tor.request(urlTest).text)
+    print(tor.request_get(urlTest).text)
 
 if __name__ == '__main__':
     try:

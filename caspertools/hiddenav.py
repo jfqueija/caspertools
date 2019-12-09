@@ -32,7 +32,7 @@ class TorIp(object):
             return 'Failed renew Ip: %s'%str(ex)
     
     '''Function used for navigate to url with proxy. Not with our original IP'''
-    def request(self,url):
+    def request_get(self,url):
         try:
             with Controller.from_port(port=int(self.get_tor_port())) as controller:
                 controller.authenticate(password= self.get_tor_password())
