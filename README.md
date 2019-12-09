@@ -10,7 +10,8 @@ El objetivo de este desarrollo, es el aprendizaje. No nos hacemos responsables d
 
 Versión |   Autor   |   Publicada   |   Enlace      |   Descripción
 ------- |   ------  |   ----------- |   ---------   |   --------
-0.1     |   José Fº |   Sí          |   [pip](https://pypi.org/project/caspertools/)         |   En esta versión disponemos de la función request_get que haciendo uso de la librería requests y a través del método get, obtendrá la respuesta de una página web que enviemos por parámetro. 
+0.1     |   José Fº |   No          |   [pip](https://pypi.org/project/caspertools/)    |   En esta versión disponemos de la función request_get que haciendo uso de la librería requests y a través del método get, obtendrá la respuesta de una página web que enviemos por parámetro. 
+0.2     |   José F  |   Sí          |   [pip](https://pypi.org/project/caspertools/)    |   No hay cambios sobre la versión anterior. Se solventan algunos fallos de implementación.
 
 
 ### Configuración/Instalación Tor
@@ -119,7 +120,8 @@ This development is only for learn. We are not responsible for the incorrect use
 
 Version |   Author  |   Published   |   Link        |   Description
 ------- |   ------  |   ----------- |   ---------   |   --------
-0.1     |   José Fº |   Yes         |   [pip](https://pypi.org/project/caspertools/)       |   In this version we have the request_get function that by using the requests library and through the get method, you will get the response of a web page that we send by parameter.
+0.1     |   José Fº |   No         |   [pip](https://pypi.org/project/caspertools/)       |   In this version we have the request_get function that by using the requests library and through the get method, you will get the response of a web page that we send by parameter.
+0.2     |   José F  |   Yes          |   [pip](https://pypi.org/project/caspertools/)    |   There are no changes over the previous version. Some implementation failures are resolved.
 
 
 
